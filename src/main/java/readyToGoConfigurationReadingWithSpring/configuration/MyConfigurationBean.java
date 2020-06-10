@@ -2,6 +2,7 @@ package readyToGoConfigurationReadingWithSpring.configuration;
 
 import java.util.Date;
 
+import org.joda.time.DateTime;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
@@ -24,6 +25,7 @@ public class MyConfigurationBean {
 	private String myString4;
 	private String myString5;
 	private Date myDate6;
+	private DateTime myDate7;
 	public String getMyString1() {
 		return myString1;
 	}
@@ -59,5 +61,11 @@ public class MyConfigurationBean {
 	}
 	public void setMyDate6(Date myDate6) {
 		this.myDate6 = myDate6;
+	}
+	public DateTime getMyDate7() {
+		return myDate7;
+	}
+	public void setMyDate7(DateTime myDate7) {
+		this.myDate7 = myDate7;
 	}
 }

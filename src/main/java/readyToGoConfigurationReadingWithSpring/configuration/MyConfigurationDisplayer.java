@@ -18,5 +18,6 @@ public class MyConfigurationDisplayer implements ApplicationListener<Application
 		System.out.println(myConf.getMyString4());
 		System.out.println(myConf.getMyString5());
 		System.out.println(myConf.getMyDate6());
+		System.out.println(myConf.getMyDate7());
 	}
 }
